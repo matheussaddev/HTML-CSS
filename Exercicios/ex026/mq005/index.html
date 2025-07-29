@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <i id="burguer" class="material-symbols-outlined" onclick="clickMenu()">favorite</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolorum laboriosam, dolor ab, dolore natus minima sapiente inventore cupiditate facilis quibusdam. Id reprehenderit alias eveniet unde officia incidunt corrupti sequi! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe, voluptatem a. Voluptates eos sunt accusantium fuga beatae totam, assumenda fugit illo voluptas maiores atque eaque quas neque et, mollitia magnam.</p>
+
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit ullam placeat ducimus reiciendis dolorum neque asperiores, reprehenderit eum temporibus consectetur quisquam laudantium dolore quasi minima ex vero deleniti voluptatem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates dolor perferendis dolorem ipsum nostrum obcaecati libero odio officiis sit dolores voluptate, ducimus repellendus quaerat nulla cumque quas ab ex explicabo? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt placeat odit doloribus voluptate esse ipsum, enim quam. Doloremque natus iure quod placeat facere est magni? Repellendus facere nobis magni eligendi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias unde nisi similique quas iste asperiores delectus, quia error blanditiis esse voluptatum reprehenderit earum dignissimos voluptates quo reiciendis nesciunt, culpa provident.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis voluptatum totam excepturi fugit odit doloremque id recusandae doloribus, dolorum quasi, nisi consequuntur inventore? Sunt quisquam qui illum doloremque repellendus nobis! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci aliquid voluptatum similique iusto architecto sapiente obcaecati officiis veritatis quaerat aperiam quia, magnam rerum eos. Eius ratione repellendus praesentium commodi quisquam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi deleniti iure at, maiores quis aspernatur sapiente labore? Voluptatem adipisci dolorum deleniti ducimus error quae consequuntur quos necessitatibus iusto, nemo ullam.</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
